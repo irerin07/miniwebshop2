@@ -1,0 +1,101 @@
+insert into users(id, name, nick_name, email, password, regdate, address, contact_number) values (1, '민경수', 'irerin07', 'counterchord89@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 126-503', '01027488850');
+insert into users(id, name, nick_name, email, password, regdate, address, contact_number) values (2, '김철수', 'irerin01', 'counterchord1@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 121-103', '01027488851');
+insert into users(id, name, nick_name, email, password, regdate, address, contact_number) values (3, '박영수', 'irerin02', 'counterchord2@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 122-203', '01027488852');
+insert into users(id, name, nick_name, email, password, regdate, address, contact_number) values (4, '이민수', 'irerin03', 'counterchord3@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 123-303', '01027488853');
+insert into users(id, name, nick_name, email, password, regdate, address, contact_number) values (5, '최연수', 'irerin04', 'counterchord4@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 124-403', '01027488854');
+insert into users(id, name, nick_name, email, password, regdate, address, contact_number) values (6, '오달수', 'irerin05', 'counterchord5@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 125-603', '01027488855');
+insert into users(id, name, nick_name, email, password, regdate, address, contact_number) values (7, '송한수', 'irerin06', 'counterchord6@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 127-703', '01027488856');
+insert into users(id, name, nick_name, email, password, regdate, address, contact_number) values (8, '여현수', 'irerin08', 'counterchord7@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 128-803', '01027488857');
+insert into users(id, name, nick_name, email, password, regdate, address, contact_number) values (9, '서진수', 'irerin09', 'counterchord8@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 129-903', '01027488858');
+insert into users(id, name, nick_name, email, password, regdate, address, contact_number) values (10, '정지수', 'irerin10', 'counterchord9@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 130-1003', '01027488859');
+insert into users(id, name, nick_name, email, password, regdate, address, contact_number) values (11, '권혁수', 'irerin11', 'counterchord10@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 131-1103', '01027488860');
+insert into users(id, name, nick_name, email, password, regdate, address, contact_number) values (12, '표영수', 'irerin12', 'counterchord11@gmail.com', '{bcrypt}$2a$10$DT78LhdD6Qj/Z3DI3iBCqu2H6FKBNimHnLSmu.u9rIrEEIPsc2jSy', now(), '경기 수원 조원 한일타운 132-1203', '01027488861');
+
+
+insert into roles(id, name) values(1, 'ADMIM');
+insert into roles(id, name) values(2, 'USER');
+
+insert into user_roles(user_id, role_id) values (1, 1);
+insert into user_roles(user_id, role_id) values (1, 2);
+insert into user_roles(user_id, role_id) values (2, 1);
+insert into user_roles(user_id, role_id) values (3, 1);
+insert into user_roles(user_id, role_id) values (4, 1);
+insert into user_roles(user_id, role_id) values (5, 1);
+insert into user_roles(user_id, role_id) values (5, 2);
+insert into user_roles(user_id, role_id) values (6, 1);
+insert into user_roles(user_id, role_id) values (7, 1);
+insert into user_roles(user_id, role_id) values (8, 1);
+insert into user_roles(user_id, role_id) values (9, 1);
+insert into user_roles(user_id, role_id) values (10, 1);
+insert into user_roles(user_id, role_id) values (11, 1);
+insert into user_roles(user_id, role_id) values (12, 1);
+
+insert into category(id, name, ordering) values(1, 'CPU', 1);
+insert into category(id, name, ordering) values(2, '메인보드', 2);
+insert into category(id, name, ordering) values(3, '그래픽카드', 3);
+insert into category(id, name, ordering) values(4, 'RAM', 4);
+insert into category(id, name, ordering) values(5, 'SSD', 5);
+insert into category(id, name, ordering) values(6, 'HDD', 6);
+insert into category(id, name, ordering) values(7, '케이스', 7);
+insert into category(id, name, ordering) values(8, '파워', 8);
+
+insert into products(id, description, name, price, regdate, stock, category_id) values (1, '인텔(소켓1151v2) / 14nm / 옥타(8)코어 / 쓰레드 8개 / 3.60GHz / 12MB / 64비트 / 95W / 인텔 UHD 630 / 350MHz / 옵테인','인텔 코어i7-9세대 9700K (커피레이크-R)', 520000, now(), 99, 1);
+insert into products(id, description, name, price, regdate, stock, category_id) values (2, 'AMD(소켓AM4) / 12nm / 옥타(8) 코어 / 쓰레드 16개 / 3.7GHz / 4MB / 16MB / 64비트 / 105W / Unlocked / XFR / SENSEMI / SMT / Wraith Prism 쿨러 포함','AMD 라이젠 7 2700X (피나클 릿지)', 315000, now(), 45, 1);
+insert into products(id, description, name, price, regdate, stock, category_id) values (3, '인텔(소켓1151v2) / (인텔) H310 / M-ATX (22.6x18.5cm) / 전원부: 7페이즈 / DDR4 / 메모리 용량: 최대 32GB / XMP / VGA 연결: PCIe3.0 x16 / PCIe 슬롯: 3개 / SATA3: 4개 / 7.1ch / 그래픽 출력: D-SUB, DVI / PS/2: 콤보 1개 / USB 2.0: 후면 4개 / USB 3.1 Gen 1: 후면 2개 / 기가비트 LAN / UEFI','	MSI H310M PRO-VD PLUS	', 67000, now(), 49, 2);
+insert into products(id, description, name, price, regdate, stock, category_id) values (4, 'AMD(소켓AM4) / (AMD) B450 / M-ATX (24.4x24.4cm) / 전원부: 9페이즈 / DDR4 / 메모리 용량: 최대 64GB / VGA 연결: PCIe3.0 x16 / 멀티 GPU: CrossFire X / PCIe 슬롯: 3개 / SATA3: 4개 / M.2 슬롯: 2개 / 7.1ch / 그래픽 출력: D-SUB, DVI, HDMI / PS/2: 콤보 1개 / USB 2.0: 후면 2개 / USB 3.1 Gen 1: 후면 4개 / USB 3.1 Gen 2: 후면 2개 / 기가비트 LAN / AMD APU 지원 / LED 헤더','	ASRock B450M PRO4 에즈윈', 91900, now(), 65, 2);
+insert into products(id, description, name, price, regdate, stock, category_id) values (5, '쿼드로 / 5120개 / PCIe3.0x16 / HBM(2세대) / 32GB / 4096-bit / DP / 최대 모니터 4개 / 최대 250W / 1개 팬 / 267mm','리드텍 쿼드로 GV100 HBM2 32GB 리더스시스템즈',12767000, now(), 31, 3);
+insert into products(id, description, name, price, regdate, stock, category_id) values (6, 'FirePro / 930MHz / 2816개 / PCIe3.0x16 / GDDR5(DDR5) / 16GB / 512-bit / DP / 최대 모니터 6개 / 최대 275W / 1개 팬','AMD FirePro W9100 D5 16GB 블루존	', 5737500, now(), 5, 3);
+insert into products(id, description, name, price, regdate, stock, category_id) values (7, 'DDR4 / PC용 / 1ea / 미포함 / Dimm / 8GB / 2,666MHz','삼성전자 DDR4 8G PC4-21300 (정품)', 53200, now(),14, 4);
+insert into products(id, description, name, price, regdate, stock, category_id) values (8, 'DDR4 / PC용 / 1ea / 미포함 / Dimm / 8GB / 2,666MHz / 1.20V / 메모리 타이밍 : 19-19-19-43','GeIL DDR4 8G PC4-21300 CL19 PRISTINE', 48900, now(),76, 4);
+insert into products(id, description, name, price, regdate, stock, category_id) values (9, '내장형SSD / 2.5형(6.4cm) / SATA3 (6Gb/s) / TLC(토글) / 3D낸드 / 삼성 MJX / LPDDR4 / 512MB / 최대 550MB/s / 최대 520MB/s / 1,500,000시간 / TRIM 지원 / GC 기능 / S.M.A.R.T 지원 / ECC 지원 / DEVSLP 지원 / 6.8mm / 최대 50g / 5년 / 전용 소프트웨어 / 구매전 병행수입 전환판매 여부 반드시 확인요망','삼성전자 860 EVO 4TB', 1071000, now(), 33, 5);
+insert into products(id, description, name, price, regdate, stock, category_id) values (10, '내장형SSD / 2.5형(6.4cm) / SATA3 (6Gb/s) / TLC(기타) / 3D낸드 / 실리콘모션 SM2258 / 최대 560MB/s / 최대 510MB/s / 1,800,000시간 / TRIM 지원 / GC 기능 / S.M.A.R.T 지원 / ECC 지원 / DEVSLP 지원 / 7mm / 5년 / 전용 소프트웨어','마이크론 Crucial MX500 대원CTS 2TB', 379000, now(),95, 5);
+insert into products(id, description, name, price, regdate, stock, category_id) values (11, 'HDD (PC용) / 8.9cm (3.5형) / 2TB / SATA3 (6Gb/s) / 7,200RPM / 메모리 256MB / 두께: 20.2mm / 2년 / 무게 : 최대 490g','Seagate 2TB BarraCuda ST2000DM008 (SATA3/7200/256M)',67300, now(),66, 6);
+insert into products(id, description, name, price, regdate, stock, category_id) values (12, 'HDD (PC용) / 8.9cm (3.5형) / 1TB / SATA3(6Gb/s) / 7,200RPM / 메모리 64MB / 두께: 25.4mm / 소음(유휴/탐색): 29/30dB / 2년','Western Digital WD 1TB BLUE WD10EZEX (SATA3/7200/64M)', 46000, now(),12,6);
+insert into products(id, description, name, price, regdate, stock, category_id) values (13, 'PC케이스(ATX) / 빅타워 / 아크릴 케이스 / 파워미포함 / Extended-ATX / 표준-ATX / Micro-ATX / Mini-ITX / 쿨링팬 5개 / 측면 아크릴 / 120mm / 120mm 화이트 LED x2 / 120mm x 2 / HD AUDIO / 210mm / 505mm / 510mm / GPU 장착: 최대 325mm / CPU쿨러:최대 165mm','BRAVOTEC 스텔스 EX270 파노라마 윈도우 블랙', 57100, now(),82, 7);
+insert into products(id, description, name, price, regdate, stock, category_id) values (14, 'PC케이스(ATX) / 미들타워 / 강화유리 케이스 / 파워미포함 / 표준-ATX / Micro-ATX / Mini-ITX / 쿨링팬 5개 / 측면 강화유리 / 120mm 화이트 LED / 120mm 화이트 LED x 2 / 120mm 화이트 LED x 2 / HD AUDIO / 200mm / 500mm / 475mm / GPU 장착: 410mm / CPU쿨러:162mm / LED팬: 5개 내장','3RSYS L530 화이트 강화유리', 68000, now(),43, 7);
+insert into products(id, description, name, price, regdate, stock, category_id) values (15, 'ATX 파워 / 정격 500W / 20핀+4핀 / 120mm 팬 / 1개(팬) / 액티브PFC / 깊이: 140mm / +12V 싱글레일 / 37.5A / 4핀 IDE x3 / SATA x6 / 6+2핀 PCI-E x2 / 보조8핀 커넥터 / 보조4핀 커넥터 / FDD 커넥터 / 대기전력 1W / 플랫케이블 / 80 PLUS / 스탠다드 / 무상 6년','마이크로닉스 Classic II 500W +12V Single Rail 85+', 40400, now(),84, 8);
+insert into products(id, description, name, price, regdate, stock, category_id) values (16, 'ATX 파워 / 정격 500W / 24핀 전용 / 120mm 팬 / 1개(팬) / 액티브PFC / +12V 싱글레일 / 38A / 4핀 IDE x3 / SATA x6 / 6+2핀 PCI-E x2 / 보조8핀(4+4) 커넥터 / FDD 커넥터 / 플랫케이블 / 80 PLUS / 스탠다드 / 무상 5년 / 2018년 11월 메인커넥터 (20+4핀→24핀) 변경','	FSP HYPER K 500W 80PLUS Standard 230V EU', 41000, now(),3, 8);
+
+insert into order_history(id, user_id) values(1,2);
+insert into order_history(id, user_id) values(2,3);
+insert into order_history(id, user_id) values(3,4);
+insert into order_history(id, user_id) values(4,5);
+insert into order_history(id, user_id) values(5,5);
+insert into order_history(id, user_id) values(6,5);
+insert into order_history(id, user_id) values(7,6);
+insert into order_history(id, user_id) values(8,7);
+insert into order_history(id, user_id) values(9,10);
+insert into order_history(id, user_id) values(10,8);
+
+insert into ship_info(address, contact_number, name, ship_date, ship_status, order_history_id) values('경기 수원 조원 한일타운 121-103', '01027488851', '김철수',now(), '배송중', 1 );
+insert into ship_info(address, contact_number, name, ship_date, ship_status, order_history_id) values('경기 수원 조원 한일타운 121-203', '01027488852', '박영수',now(), '배송완료', 2 );
+insert into ship_info(address, contact_number, name, ship_date, ship_status, order_history_id) values('경기 수원 조원 한일타운 122-303', '01027488853', '이민수',now(), '배송중', 3 );
+insert into ship_info(address, contact_number, name, ship_date, ship_status, order_history_id) values('경기 수원 조원 한일타운 121-403', '01027488854', '최연수',now(), '배송완료', 4 );
+insert into ship_info(address, contact_number, name, ship_date, ship_status, order_history_id) values('경기 수원 조원 한일타운 121-403', '01027488854', '최연수',now(), '배송중', 5 );
+insert into ship_info(address, contact_number, name, ship_date, ship_status, order_history_id) values('경기 수원 조원 한일타운 121-403', '01027488854', '최연수',now(), '배송중', 6 );
+insert into ship_info(address, contact_number, name, ship_date, ship_status, order_history_id) values('경기 수원 조원 한일타운 125-603', '01027488855', '오달수',now(), '배송중', 7 );
+insert into ship_info(address, contact_number, name, ship_date, ship_status, order_history_id) values('경기 수원 조원 한일타운 127-703', '01027488856', '송한수',now(), '배송중', 8 );
+insert into ship_info(address, contact_number, name, ship_date, ship_status, order_history_id) values('경기 수원 조원 한일타운 130-1003', '01027488859', '정지수',now(), '배송완료', 9 );
+insert into ship_info(address, contact_number, name, ship_date, ship_status, order_history_id) values('경기 수원 조원 한일타운 128-803', '01027488857', '여현수',now(), '배송중', 10 );
+
+insert into payment_info(method, order_date, payment_status, price, order_history_id) values('카드', now(), '결제완료', 520000, 1);
+insert into payment_info(method, order_date, payment_status, price, order_history_id) values('카드', now(), '결제완료', 12767000, 2);
+insert into payment_info(method, order_date, payment_status, price, order_history_id) values('무통장입금', now(), '입금대기', 46000, 3);
+insert into payment_info(method, order_date, payment_status, price, order_history_id) values('카드', now(), '결제완료', 315000, 4);
+insert into payment_info(method, order_date, payment_status, price, order_history_id) values('무통장입금', now(), '결제완료', 67300, 5);
+insert into payment_info(method, order_date, payment_status, price, order_history_id) values('무통장입금', now(), '결제완료', 53200, 6);
+insert into payment_info(method, order_date, payment_status, price, order_history_id) values('카드', now(), '결제완료', 57100, 7);
+insert into payment_info(method, order_date, payment_status, price, order_history_id) values('무통장입금', now(), '입금대기', 520000, 8);
+insert into payment_info(method, order_date, payment_status, price, order_history_id) values('카드', now(), '결제완료', 379000, 9);
+insert into payment_info(method, order_date, payment_status, price, order_history_id) values('카드', now(), '결제완료', 520000, 10);
+
+insert into ordered_product(product_id, order_history_id) values(1 ,1);
+insert into ordered_product(product_id, order_history_id) values(5 ,2);
+insert into ordered_product(product_id, order_history_id) values(12 ,3);
+insert into ordered_product(product_id, order_history_id) values(2 ,4);
+insert into ordered_product(product_id, order_history_id) values(11 ,5);
+insert into ordered_product(product_id, order_history_id) values(7 ,6);
+insert into ordered_product(product_id, order_history_id) values(13 ,7);
+insert into ordered_product(product_id, order_history_id) values(1 ,8);
+insert into ordered_product(product_id, order_history_id) values(10 ,9);
+insert into ordered_product(product_id, order_history_id) values(1 ,10);

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+    <title>welcome</title>
+</head>
+<body>
+<h1>welcome</h1>
+
+<a href="/users/login">로그인</a>
+
+
+<div class="navbar-form navbar-right">
+    <div sec:authentication="isAuthenticated()">
+        <h1 th:inline="text">isAuthenticated, <span th:text="${#authentication?.name}"></span>!</h1>
+    </div>
+
+    <div sec:authentication="!isAuthenticated()">
+        <h1 th:inline="text">isAnonymous, <span th:text="${#authentication?.name}"></span>!</h1>
+    </div>
+
+</div>
+
+</body>
+</html>
